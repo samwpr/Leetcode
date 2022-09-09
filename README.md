@@ -1,2 +1,2 @@
 # Leetcode
-My attempts at leetcode problems
+My attempts at leetcode and other general DSA problems 
