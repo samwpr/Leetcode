@@ -29,7 +29,6 @@ database.add("Valid Anagram | Easy | Affirm, Spotify", "https://leetcode.com/pro
 database.add("Valid Palindrome | Easy | Amex, Wayfair, Yandex", "https://leetcode.com/problems/valid-palindrome/")
 #database.add(" |  | ", " ")
 
-
 database.generate()
 
 
