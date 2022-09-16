@@ -27,6 +27,7 @@ database.add("Snapshot Array | Easy | Google, Rubrik", "https://leetcode.com/pro
 database.add("TwoSum | Easy | NA", "https://leetcode.com/problems/two-sum/")
 database.add("Valid Anagram | Easy | Affirm, Spotify", "https://leetcode.com/problems/valid-anagram/")
 database.add("Valid Palindrome | Easy | Amex, Wayfair, Yandex", "https://leetcode.com/problems/valid-palindrome/")
+database.add("Best Time to Buy and Sell Stock | Easy | Adobe, Alation, Amazon, Apple, Atlassian, Bloomberg, ByteDance, Capital One, Cisco, Docusign, Expedia, Goldman Sachs, JP Morgan, Netflix, Orcale, Paypal, ServiceNow, Uber, Visa, Walmart, Zoho, Zoom, eBay, tcs", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/")
 #database.add(" |  | ", " ")
 
 database.generate()
