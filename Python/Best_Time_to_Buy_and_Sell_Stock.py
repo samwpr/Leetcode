@@ -9,21 +9,23 @@ def maxProfit(prices: list) -> int:
 
     l = 0
     for r in range(1, len(prices)):
+        print(prices[r], prices[l])
         if prices[r] < prices[l]:
             l = r
-        res = max(res, prices[r] - prices[l])
+        #print(prices[r], prices[l])
+        print("l =", l)
+        print("max", prices[r], prices[l])
+        res = max(res, prices[r] - prices[l],)
+        print("res",res)
     return res
 
 
-
-
-
-prices = [7,2,10,1,6]
-print(maxProfit(prices))
+prices1 = [7,2,10,1,6]
+print(maxProfit(prices1))
 
 prices = [7,6,4,3,1]
-print(maxProfit(prices))
-
+#print(maxProfit(prices))
 
 prices = [7,1,5,3,6,4]
-print(maxProfit(prices))
+#print(maxProfit(prices))
+
