@@ -14,7 +14,7 @@ class leetcode(object):
 
     def generate(self):
         number = randint(0, self.size)
-        print("Number of questions:", self.size+1)
+        print("Number of questions:", self.size+1, "\n")
         print(number, self.dict[number])
         
 database = leetcode()
@@ -28,6 +28,8 @@ database.add("TwoSum | Easy | NA", "https://leetcode.com/problems/two-sum/")
 database.add("Valid Anagram | Easy | Affirm, Spotify", "https://leetcode.com/problems/valid-anagram/")
 database.add("Valid Palindrome | Easy | Amex, Wayfair, Yandex", "https://leetcode.com/problems/valid-palindrome/")
 database.add("Best Time to Buy and Sell Stock | Easy | Adobe, Alation, Amazon, Apple, Atlassian, Bloomberg, ByteDance, Capital One, Cisco, Docusign, Expedia, Goldman Sachs, JP Morgan, Netflix, Orcale, Paypal, ServiceNow, Uber, Visa, Walmart, Zoho, Zoom, eBay, tcs", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/")
+database.add("Valid Parenthese | Easy | Adobe, Amazon, Arista Networks, Barclays, Bloomberg, Booking, Cisco, Dataminr, Expedia, Intel, Linkedin, Microsoft, Netflix, Oracle, ServiceNow, Spotify, VMware, Yandex, tcs", "https://leetcode.com/problems/valid-parentheses/")
+#database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
 database.generate()
