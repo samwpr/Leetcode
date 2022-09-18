@@ -20,8 +20,10 @@ class Solution:
         for i in s:
             if i in dictionary.values():
                 stack.append(i)
+                print(stack)
             elif stack and dictionary[i] == stack[-1]:
                 stack.pop()
+                print(stack)
             else: 
                 return False
         return stack == []
