@@ -30,6 +30,7 @@ database.add("Valid Palindrome | Easy | Amex, Wayfair, Yandex", "https://leetcod
 database.add("Best Time to Buy and Sell Stock | Easy | Adobe, Alation, Amazon, Apple, Atlassian, Bloomberg, ByteDance, Capital One, Cisco, Docusign, Expedia, Goldman Sachs, JP Morgan, Netflix, Orcale, Paypal, ServiceNow, Uber, Visa, Walmart, Zoho, Zoom, eBay, tcs", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/")
 database.add("Valid Parentheses | Easy | Adobe, Amazon, Arista Networks, Barclays, Bloomberg, Booking, Cisco, Dataminr, Expedia, Intel, Linkedin, Microsoft, Netflix, Oracle, ServiceNow, Spotify, VMware, Yandex, tcs", "https://leetcode.com/problems/valid-parentheses/")
 database.add("Binary Search | Easy | Na", "https://leetcode.com/problems/binary-search/")
+database.add("Reverse LinkedList | Easy | Intuit, Yandex", "https://leetcode.com/problems/reverse-linked-list/")
 #database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
