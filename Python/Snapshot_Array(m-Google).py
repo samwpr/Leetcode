@@ -18,26 +18,27 @@ class SnapshotArray:
     def __init__(self, length: int):
         self.snap_id = 0
         self.history = defaultdict(dict)
-        
-    def set(self, index: int, val: int) -> None:
-        self.history[self.snap_id][index] = val
-        
+
+    def set(self, index: int, value: int):
+        self.history[self.snap_id][index] = value
+    
     def snap(self) -> int:
         self.snap_id += 1
-        return self.snap_id-1
+        return self.snap_id - 1
 
-    def get(self, index: int, snap_id: int) -> int:
-        for i in range(snap_id,-1,-1):
-            if index in self.history[i]:
+    def get(self, index: int, snap_id: int) -> int: 
+        for i in range(snap_id, -1, -1):
+            if index in self.history[i]: 
                 return self.history[i][index]
-        return 0 # default value in case it wasn't set earlier
+        return 0
+
 
 ob = SnapshotArray(3) 
 ob.set(0, 5)
 print(ob.snap()) #Print 0
 ob.set(0,6)
 print(ob.get(0,0)) #Print 5 
-        
+    
 
 
 # Your SnapshotArray object will be instantiated and called as such:
@@ -45,4 +46,5 @@ print(ob.get(0,0)) #Print 5
 # obj.set(index,val)
 # param_2 = obj.snap()
 # param_3 = obj.get(index,snap_id)
+
 
