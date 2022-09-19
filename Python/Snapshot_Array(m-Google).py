@@ -1,6 +1,8 @@
-# https://leetcode.com/problems/snapshot-array/
-
 '''
+https://leetcode.com/problems/snapshot-array/
+Level: Medium 
+Companies: Google, Rubrik
+
 Input: ["SnapshotArray","set","snap","set","get"]
 [[3],[0,5],[],[0,6],[0,0]]
 Output: [null,null,0,null,5]
