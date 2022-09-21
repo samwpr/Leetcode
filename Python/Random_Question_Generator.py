@@ -31,6 +31,8 @@ database.add("Best Time to Buy and Sell Stock | Easy | Adobe, Alation, Amazon, A
 database.add("Valid Parentheses | Easy | Adobe, Amazon, Arista Networks, Barclays, Bloomberg, Booking, Cisco, Dataminr, Expedia, Intel, Linkedin, Microsoft, Netflix, Oracle, ServiceNow, Spotify, VMware, Yandex, tcs", "https://leetcode.com/problems/valid-parentheses/")
 database.add("Binary Search | Easy | Na", "https://leetcode.com/problems/binary-search/")
 database.add("Reverse LinkedList | Easy | Intuit, Yandex", "https://leetcode.com/problems/reverse-linked-list/")
+database.add("Invert Binary Tree | Easy | Na", "https://leetcode.com/problems/invert-binary-tree/")
+database.add("Create Binary Tree| Na | Na", "Na")
 #database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
