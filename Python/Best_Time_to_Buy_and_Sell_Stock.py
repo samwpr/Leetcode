@@ -5,27 +5,21 @@ Companies: Adobe, Alation, Amazon, Apple, Atlassian, Bloomberg, ByteDance, Capit
 '''
 
 def maxProfit(prices: list) -> int:
-    res = 0
-
-    l = 0
-    for r in range(1, len(prices)):
-        print(prices[r], prices[l])
-        if prices[r] < prices[l]:
-            l = r
-        #print(prices[r], prices[l])
-        print("l =", l)
-        print("max", prices[r], prices[l])
-        res = max(res, prices[r] - prices[l],)
-        print("res",res)
-    return res
+    profit = 0 
+    index = 0
+    for i in range(1, len(prices)):
+        if prices[i] < prices[index]:
+            index = i
+        profit = max(profit, prices[i] - prices[index])
+    return profit
+    
 
 
 prices1 = [7,2,10,1,6]
 print(maxProfit(prices1))
 
 prices = [7,6,4,3,1]
-#print(maxProfit(prices))
+print(maxProfit(prices))
 
 prices = [7,1,5,3,6,4]
-#print(maxProfit(prices))
-
+print(maxProfit(prices))
