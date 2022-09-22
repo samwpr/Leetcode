@@ -15,26 +15,26 @@ Output: false
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        dictionary = {")":"(", "}":"{", "]":"["}
+        parenthesesDict = {")":"(", "}":"{", "]":"["}
         stack = []
         for i in s:
-            if i in dictionary.values():
+            if i in parenthesesDict.values():
                 stack.append(i)
-                print(stack)
-            elif stack and dictionary[i] == stack[-1]:
+            elif stack and parenthesesDict[i] == stack[-1]:
                 stack.pop()
-                print(stack)
-            else: 
+            else:
                 return False
         return stack == []
 
+
+
 obj = Solution()
-#print(obj.isValid("()"))
-#print(obj.isValid("()[]{}"))
-#print(obj.isValid("(]"))
-#print(obj.isValid("([])"))
-#print(obj.isValid(")"))
-print(obj.isValid("(){}}{"))
+print(obj.isValid("()")) #True
+print(obj.isValid("()[]{}")) #True
+print(obj.isValid("(]")) #False
+print(obj.isValid("([])")) #True
+print(obj.isValid(")")) #False
+print(obj.isValid("(){}}{")) #False
 
 
 '''
