@@ -1,19 +1,25 @@
+'''
+Link: https://leetcode.com/problems/happy-number/
+Level: Easy
+Companies: Google, Paypal
+'''
+
 class Solution(object):
     #@snoop
     def isHappy(self, n: int) -> bool:
-        pastNum = set() #using set as all values need to be unique to ensure no infinite loop
+        res = set()
         while n != 1:
             n = sum(int(i)**2 for i in str(n))
-            if n not in pastNum:
-                pastNum.add(n)
-            else: 
+            if n in res:
                 return False
+            else: 
+                res.add(n)
         return True
 
-        
 obj = Solution()
 print(obj.isHappy(19))
 print(obj.isHappy(2))
+
 
 
 
