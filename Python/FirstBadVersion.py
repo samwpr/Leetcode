@@ -8,27 +8,20 @@ def isBadVersion(version: int) -> bool:
     return False
 
 def firstBadVersion(n: int) -> int:
-    if n < 2: 
-        return n
+    if n < 2:
+        return 1
     
-    left = 1 
+    left = 1
     right = n
-
-
-    while (left <= right):
-        mid = (left + right) // 2 
-        if isBadVersion(mid) == True and isBadVersion(mid -1) == False:
-            return mid
-        elif isBadVersion(mid - 1) == True:
+    while (left <= right): 
+        mid = (left + right) // 2
+        if isBadVersion(mid) == True and isBadVersion(mid-1) == False:
+            return mid 
+        elif isBadVersion(mid-1) == True: 
             right = mid -1
-            #print("1", mid)
         else: 
-            left = mid + 1 
-            #print("2", mid)
-
+            left = mid + 1
+    
 bad = 4
 print(firstBadVersion(5))
-
-bad = 1
-print(firstBadVersion(1))
 
