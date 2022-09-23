@@ -4,7 +4,7 @@ from collections import defaultdict
 class leetcode(object):
     def __init__(self):
         self.size = -1
-        self.problem_id = 0
+        self.problem_id = 1
         self.dict = defaultdict(dict)
     
     def add(self, problem_name: str, problem_url: str): 
@@ -33,6 +33,7 @@ database.add("Binary Search | Easy | Na", "https://leetcode.com/problems/binary-
 database.add("Reverse LinkedList | Easy | Intuit, Yandex", "https://leetcode.com/problems/reverse-linked-list/")
 database.add("Invert Binary Tree | Easy | Na", "https://leetcode.com/problems/invert-binary-tree/")
 database.add("Create Binary Tree| Na | Na", "Na")
+database.add("Merge Two Sorted List | Easy | Accenture, Adobe, Orcale, Shoppe", "https://leetcode.com/problems/merge-two-sorted-lists/")
 #database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
