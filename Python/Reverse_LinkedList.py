@@ -6,44 +6,49 @@ Companies: Inuit, Yandex
 TODO: Reverse recursively
 '''
 
+from audioop import add
+
+
 class Node:
-    def __init__(self, input: int, node = None):
-        self.data = input
+    def __init__(self, value, node = None):
+        self.value = value 
         self.next = node 
 
-class LinkedList:
-    def __init__(self, root = None):
-        self.head = root
-        self.size = 0
 
-    def add(self, input: int):
-        new_node = Node(input, self.head)
+class LinkedList:
+    def __init__(self, head = None):
+        self.head = head 
+        self.size = 0
+    
+    def add(self, value): 
+        new_node = Node(value, self.head)
         self.head = new_node
         self.size += 1
 
-    def print(self): 
+    def printList(self):
         temp = self.head
         while temp != None: 
-            print(temp.data, end="")
-            temp = temp.next
+            print(temp.value, end="")
+            temp = temp.next 
         print("")
 
     def reverse(self):
-        a = self.head
-        b = None
-        c = None
-        while a != None: 
-            b = a 
-            a = a.next
-            b.next = c 
-            c = b 
-        self.head = b
+        curr = self.head
+        temp = None 
+        while curr != None: 
+            prev = curr
+            curr = curr.next
+            prev.next = temp
+            temp = prev
+        self.head = prev
+        return prev
+            
 
 
 myList = LinkedList()
 myList.add(1)
 myList.add(2)
 myList.add(3)
-myList.print()
+myList.printList()
 myList.reverse()
-myList.print()
+myList.printList()
