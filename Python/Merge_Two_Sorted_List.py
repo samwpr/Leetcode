@@ -29,8 +29,27 @@ class LinkedList:
 
 
     def mergeTwoLists(self, list1, list2):
-        for i in list1:
-            print(i.data)
+        dummyNode = ListNode(0)
+        tail = dummyNode
+        while True:
+            if list1 is None:
+                tail.next = list2
+                break
+            if list2 is None: 
+                tail.next = list1
+                break
+
+            if list1.val <= list2.val:
+                tail.next = list1
+                list1 = list1.next
+            else: 
+                tail.next = list2
+                list2 = list2.next
+
+            tail = tail.next 
+        return dummyNode.next
+
+
 
 
 list1 = LinkedList()
@@ -45,7 +64,11 @@ list2.add(3)
 list2.add(1)
 print("List 2", list2.print())
 
-list1.mergeTwoLists(list1, list2)
+list3 = []
+
+list1.mergeTwoLists(list1.root, list2.root).print()
+
+
 
 '''
 Input: list1 = [1,2,4], list2 = [1,3,4]
