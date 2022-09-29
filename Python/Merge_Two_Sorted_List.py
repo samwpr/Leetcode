@@ -1,85 +1,83 @@
-'''
-Link: https://leetcode.com/problems/merge-two-sorted-lists/
-Level: Easy
-Companies: Accenture, Adobe, Orcale, Shoppe
-'''
+from multiprocessing import dummy
 
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+class Node:
+    def __init__(self, input):
+        self.data = input 
+        self.next = None
 
 class LinkedList:
-    def __init__(self, root = None):
-        self.root = root
-        self.size = 0
+    def __init__(self):
+        self.head = None 
 
-    def add(self, val):
-        new_node = ListNode(val, self.root)
-        self.root = new_node
-        self.size += 1
-
-    def print(self): 
-        list = []
-        temp = self.root
+    def print(self):
+        temp = self.head
         while temp != None: 
-            list.append(temp.val)
+            print(temp.data, end="")
             temp = temp.next
-        return list
+        print("")
 
+    def addFront(self, input):
+        new_node = Node(input)
+        new_node.next = self.head
+        self.head = new_node
+   
+    def append(self, input):
+        new_node = Node(input)
+        if self.head == None:
+            self.head = new_node
+            return 
+        
+        tail = self.head
+        while tail.next != None:
+            tail = tail.next 
 
-def mergeTwoLists(list1, list2):
-    dummyNode = ListNode(0)
+        tail.next = new_node
+
+    def insertAfter(self, prev_node, input):
+        if prev_node is None: 
+            print("This is no previous node")
+            return 
+        
+        new_node = Node(input)
+        new_node.next = prev_node.next
+        prev_node.next = new_node
+
+def mergeList(headA, headB):
+    dummyNode = Node(0)
     tail = dummyNode
-    while True:
-        if list1 is None:
-            tail.next = list2
+    while True: 
+        if headA is None:
+            tail.next = headB
             break
-        if list2 is None: 
-            tail.next = list1
+        if headB is None:
+            tail.next = headA
             break
 
-        if list1.val <= list2.val:
-            tail.next = list1
-            list1 = list1.next
-        else: 
-            tail.next = list2
-            list2 = list2.next
-
-        tail = tail.next 
+        if headA.data <= headB.data:
+            tail.next = headA
+            headA = headA.next
+        else:
+            tail.next = headB
+            headB = headB.next
+        tail = tail.next
     return dummyNode.next
-
-
-
-
-
-
+        
 
 list1 = LinkedList()
-list1.add(4)
-list1.add(2)
-list1.add(1)
-print("List 1", list1.print())
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.print()
 
 list2 = LinkedList()
-list2.add(4)
-list2.add(3)
-list2.add(1)
-print("List 2", list2.print())
+list2.addFront(1)
+list2.addFront(2)
+list2.addFront(3)
+list2.print()
+list2.insertAfter(list2.head.next, 4)
+list2.print()
 
-list3 = LinkedList()
+list1.head = mergeList(list1.head, list2.head)
+list1.print()
 
-list1.root = mergeTwoLists(list1.root, list2.root)
-
-
-
-'''
-Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
-
-Input: list1 = [], list2 = []
-Output: []
-
-Input: list1 = [], list2 = [0]
-Output: [0]
-'''
+        
