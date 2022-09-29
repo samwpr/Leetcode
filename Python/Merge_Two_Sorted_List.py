@@ -28,26 +28,29 @@ class LinkedList:
         return list
 
 
-    def mergeTwoLists(self, list1, list2):
-        dummyNode = ListNode(0)
-        tail = dummyNode
-        while True:
-            if list1 is None:
-                tail.next = list2
-                break
-            if list2 is None: 
-                tail.next = list1
-                break
+def mergeTwoLists(list1, list2):
+    dummyNode = ListNode(0)
+    tail = dummyNode
+    while True:
+        if list1 is None:
+            tail.next = list2
+            break
+        if list2 is None: 
+            tail.next = list1
+            break
 
-            if list1.val <= list2.val:
-                tail.next = list1
-                list1 = list1.next
-            else: 
-                tail.next = list2
-                list2 = list2.next
+        if list1.val <= list2.val:
+            tail.next = list1
+            list1 = list1.next
+        else: 
+            tail.next = list2
+            list2 = list2.next
 
-            tail = tail.next 
-        return dummyNode.next
+        tail = tail.next 
+    return dummyNode.next
+
+
+
 
 
 
@@ -64,9 +67,9 @@ list2.add(3)
 list2.add(1)
 print("List 2", list2.print())
 
-list3 = []
+list3 = LinkedList()
 
-list1.mergeTwoLists(list1.root, list2.root).print()
+list1.root = mergeTwoLists(list1.root, list2.root)
 
 
 
