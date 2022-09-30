@@ -1,3 +1,7 @@
+#Make append O(1)
+#https://www.youtube.com/watch?v=l92wSWAZmnI&ab_channel=SaiAnishMalla
+
+
 from multiprocessing import dummy
 
 class Node:
@@ -16,12 +20,12 @@ class LinkedList:
             temp = temp.next
         print("")
 
-    def addFront(self, input):
+    def addFront(self, input): #O(1) constant about of work 
         new_node = Node(input)
         new_node.next = self.head
         self.head = new_node
    
-    def append(self, input):
+    def append(self, input): #O(n) where n is number of nodes in the linkedlist.
         new_node = Node(input)
         if self.head == None:
             self.head = new_node
@@ -33,7 +37,7 @@ class LinkedList:
 
         tail.next = new_node
 
-    def insertAfter(self, prev_node, input):
+    def insertAfter(self, prev_node, input): #O(1) constant amount of work 
         if prev_node is None: 
             print("This is no previous node")
             return 
@@ -79,5 +83,4 @@ list2.print()
 
 list1.head = mergeList(list1.head, list2.head)
 list1.print()
-
-        
+print("------------")
