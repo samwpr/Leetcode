@@ -1,4 +1,4 @@
-var isPalindrome = function(x){
+let isPalindrome = function(x){
     if(x < 0){return false};
 
     var temp = x;
@@ -10,6 +10,5 @@ var isPalindrome = function(x){
     }
     return reversed == temp
 };
-
 
 console.log(isPalindrome(123))
