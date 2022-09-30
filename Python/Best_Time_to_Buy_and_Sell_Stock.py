@@ -1,3 +1,4 @@
+
 '''
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
@@ -14,12 +15,10 @@ def maxProfit(prices: list) -> int:
     return profit
     
 
-
 prices1 = [7,2,10,1,6]
 print(maxProfit(prices1))
 
 prices = [7,6,4,3,1]
 print(maxProfit(prices))
 
-prices = [7,1,5,3,6,4]
-print(maxProfit(prices))
+
