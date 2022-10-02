@@ -18,12 +18,12 @@ class LinkedList:
             temp = temp.next 
         print("")
 
-    def addBefore(self, input):
+    def addBefore(self, input): #O(1) constant time 
         new_node = Node(input)
         new_node.next = self.head
         self.head = new_node
 
-    def insertAfter(self, prevNode, input):
+    def insertAfter(self, prevNode, input): #O(1) constant time
         if prevNode == None: 
             print("Previous node not found")
             return 
@@ -32,7 +32,7 @@ class LinkedList:
         new_node.next = prevNode.next 
         prevNode.next = new_node
 
-    def append(self, input):
+    def append(self, input): #   O(n) number of nodes 
         new_node = Node(input)
         if self.head == None:
             self.head = new_node
