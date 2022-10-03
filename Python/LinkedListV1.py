@@ -57,6 +57,18 @@ class LinkedList:
         self.head = prev
         return prev
 
+
+def hasCycle(self, head): 
+    slow = head
+    fast = head
+
+    while fast and fast.next: 
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            return True 
+    return False
+
 def merge(list1, list2): 
     dummyNode = Node(0)
     tail = dummyNode
@@ -99,3 +111,9 @@ list2.print()
 
 list1.head = merge(list1.head, list2.head)
 list1.print()
+
+list1.head.next.next.next = list1.head 
+
+list1.head = hasCycle(list1.head)
+
+print(list1.head)
