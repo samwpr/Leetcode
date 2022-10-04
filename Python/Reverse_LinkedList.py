@@ -2,8 +2,6 @@
 Link: https://leetcode.com/problems/reverse-linked-list/
 Level: Easy
 Companies: Inuit, Yandex
-
-TODO: Reverse recursively
 '''
 
 from hashlib import new
