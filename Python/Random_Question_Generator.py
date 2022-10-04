@@ -35,6 +35,7 @@ database.add("Reverse LinkedList - Recursive | Easy | Intuit, Yandex", "https://
 database.add("Invert Binary Tree | Easy | Na", "https://leetcode.com/problems/invert-binary-tree/")
 database.add("Create Binary Tree| Na | Na", "Na")
 database.add("Merge Two Sorted List | Easy | Accenture, Adobe, Orcale, Shoppe", "https://leetcode.com/problems/merge-two-sorted-lists/")
+database.add("Has Cycle | Easy | Spotify(4), Visa(3)", "https://leetcode.com/problems/linked-list-cycle/")
 #database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
