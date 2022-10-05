@@ -1,8 +1,10 @@
+from re import L
+
+
 class Node: 
     def __init__(self, input):
         self.data = input 
         self.next = None 
-
 
 class LinkedList:
     def __init__(self):
@@ -10,7 +12,7 @@ class LinkedList:
     
     def print(self):
         temp = self.head 
-        while temp != None:
+        while temp != None: 
             print(temp.data, end=" ")
             temp = temp.next 
         print("")
@@ -19,68 +21,74 @@ class LinkedList:
         new_node = Node(input)
         new_node.next = self.head
         self.head = new_node
-            
+    
     def append(self, input):
         new_node = Node(input)
         if self.head == None:
             self.head = new_node
-            return
-        
+            return 
+
         tail = self.head
-        while tail.next != None: 
+        while tail.next != None:
             tail = tail.next 
+        
         tail.next = new_node
-    
+
     def insert(self, prevNode, input):
         if prevNode == None: 
-            print("Previous node not found")
+            print("No previous node found")
             return 
         
         new_node = Node(input)
-        new_node.next = prevNode.next
+        new_node.next = prevNode.next 
         prevNode.next = new_node
 
     def reverse(self):
         curr = self.head
-        temp = None 
-        while curr != None: 
+        temp = None
+        while curr != None:
             prev = curr
             curr = curr.next 
-            prev.next = temp 
+            prev.next = temp
             temp = prev
-        self.head = prev 
-        return prev 
+        self.head = prev
+        return prev
 
     def hasCycle(self, head):
-        slow, fast = head, head 
+        slow, fast = head, head
 
-        while fast.next != None:
-            slow = slow.next 
+        while fast and fast.next:
+            slow = slow.next
             fast = fast.next.next
-            if fast == slow:
-                return True
-        return False 
+            if slow == fast: 
+                print("True")
+                return
+        print("False") 
 
 
-def merge(list1, list2):
-    dummyNode = Node(0)
-    tail = dummyNode
-    while True:
-        if list1 is None:
-            tail.next = list2 
-            break
-        if list2 is None: 
-            tail.next = list1
-            break 
+    def merge(self, list1, list2):
+        dummy = Node(0)
+        tail = dummy
 
-        if list1.data <= list2.data:
-            tail.next = list1
-            list1 = list1.next
-        else: 
-            tail.next = list2
-            list2 = list2.next
-        tail = tail.next 
-    return dummyNode.next
+        while True: 
+            if list1 is None: 
+                tail.next = list2
+                break
+
+            if list2 is None: 
+                tail.next = list1
+                break
+
+            if list1.data <= list2.data:
+                tail.next = list1
+                list1 = list1.next 
+            else: 
+                tail.next = list2
+                list2 = list2.next
+            tail = tail.next
+        return dummy.next 
+
+
 
 
 
@@ -88,19 +96,23 @@ def merge(list1, list2):
 list1 = LinkedList()
 list1.append(2)
 list1.append(4)
-list1.append(6)
+list1.append(8)
+list1.insert(list1.head.next, 6)
 list1.print()
-
+'''
+print(list1.head.next.next.next.next)
+list1.head.next.next.next.next = list1.head
+print(list1.head.next.next.next.next.data)
+list1.hasCycle(list1.head)
+'''
 
 list2 = LinkedList()
 list2.append(1)
-list2.append(2)
 list2.append(3)
-list2.print()
+list2.append(5)
 
-#Creating a cycle 
-print(list1.head.next.next.next)
-list1.head.next.next.next = list1.head 
-print(list1.head.next.next.next.data)
-print(list1.hasCycle(list1.head))
-print(list2.hasCycle(list2.head))
+list1.merge(list1.head, list2.head)
+print("merge")
+list1.print()
+
+
