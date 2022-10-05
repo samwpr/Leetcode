@@ -88,6 +88,19 @@ class LinkedList:
             tail = tail.next
         return dummy.next 
 
+    
+    def recursiveReverse(self, head):
+        if not head: 
+            return None
+
+        newhead = head 
+        if head.next: 
+            newhead = self.recursiveReverse(head.next)
+            head.next.next = head
+        head.next = None 
+        return newhead
+
+
 
 
 
