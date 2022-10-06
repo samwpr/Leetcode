@@ -13,6 +13,8 @@ left -> subtree -> right -> subtree -> root
 Left will always come before right, when the root will be visited that is different 
 '''  
 
+from collections import deque
+
 class Node:
     def __init__(self, input):
         self.left = None 
@@ -63,6 +65,50 @@ class Node:
             result.append(root.data)
         return result
 
+
+    def maxDepthRecursive(self, root): #O(n) 
+        if not root:
+            return 0
+        
+        return 1 + max(self.maxDepthRecursive(root.left), self.maxDepthRecursive(root.right))
+
+
+
+    def maxDepthIterativeDFSPreOrder(self, root): #O(n) Doesn't seem to be correct 
+        stack = [[root, 1]]
+        res = 0 
+
+        while stack: 
+            node, depth = stack.pop()
+
+            if node: 
+                res = max(res, depth)
+                stack.append([node.left, depth+1])
+                stack.append([node.right, depth+1])
+        return res
+
+
+
+    def maxDepthBFS(self, root): #O(n)
+        if not root:
+            return 0
+
+        q = deque()
+        if root: 
+            q.append(root)
+
+        level = 0
+        while q:
+            for i in range(len(q)):
+                node = q.popleft()
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
+            level += 1
+        return level
+
+
 def InvertTree(root):
     if not root:
         return None
@@ -84,6 +130,7 @@ def PrintInOrder(root):
     PrintInOrder(root.right)
 
 
+
 root = Node(27)
 root.insert(14)
 root.insert(35)
@@ -99,6 +146,10 @@ PrintInOrder(root)
 InvertTree(root)
 print("")
 PrintInOrder(root)
+print("")
+print(root.maxDepthRecursive(root))
+print(root.maxDepthIterativeDFSPreOrder(root))
+print(root.maxDepthBFS(root))
 
 
 
