@@ -22,6 +22,7 @@ def firstBadVersion(n: int) -> int:
         else: 
             left = mid + 1
     
+    
 bad = 4
 print(firstBadVersion(5))
 
