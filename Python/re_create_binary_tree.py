@@ -40,6 +40,21 @@ class Node:
         else:
             self.data = input
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
     def InOrder(self, root): 
         result = []
         if root:
