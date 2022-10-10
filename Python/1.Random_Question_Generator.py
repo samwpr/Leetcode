@@ -38,6 +38,7 @@ database.add("Merge Two Sorted List | Easy | Accenture, Adobe, Orcale, Shoppe", 
 database.add("Has Cycle | Easy | Spotify(4), Visa(3)", "https://leetcode.com/problems/linked-list-cycle/")
 database.add("Factorial recursive| Na | Na", "Na")
 database.add("Maximum Depth of Binary Tree | Easy | Spotify(4)", "https://leetcode.com/problems/maximum-depth-of-binary-tree/")
+database.add("Break a palindrome | Medium | Na", "https://leetcode.com/problems/break-a-palindrome/")
 #database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
