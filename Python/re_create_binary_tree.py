@@ -55,6 +55,13 @@ class Node:
         return tree
 
 
+    def maxDepthRE(self, tree):
+        if not tree:
+            return 0
+        
+        return 1 + max(self.maxDepthRE(tree.left), self.maxDepthRE(tree.right))
+
+
     
 tree1 = Node(5)
 tree1.add(3)
@@ -64,3 +71,4 @@ print(tree1.inOrder(tree1))
 #print(tree1.postOrder(tree1))
 tree1.invert(tree1)
 print(tree1.inOrder(tree1))
+print(tree1.maxDepthRE(tree1))

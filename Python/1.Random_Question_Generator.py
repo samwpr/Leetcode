@@ -19,7 +19,7 @@ class leetcode(object):
         
 database = leetcode()
 database.add("Contains Duplicat | Easy | Adobe", "https://leetcode.com/problems/contains-duplicate/")
-database.add("First Bad Version | Easy | Google, Cisco", "https://leetcode.com/problems/first-bad-version/")
+database.add("11 Oct - First Bad Version | Easy | Google, Cisco", "https://leetcode.com/problems/first-bad-version/")
 database.add("Implement a LinkedList", "Na")
 database.add("Happy Number | Easy | Google, Paypal", "https://leetcode.com/problems/happy-number/")
 database.add("Palindrome Number | Easy | Accenture, Yahoo", "https://leetcode.com/problems/palindrome-number/")
