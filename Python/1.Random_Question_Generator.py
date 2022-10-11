@@ -23,7 +23,7 @@ database.add("11 Oct - First Bad Version | Easy | Google, Cisco", "https://leetc
 database.add("Implement a LinkedList", "Na")
 database.add("Happy Number | Easy | Google, Paypal", "https://leetcode.com/problems/happy-number/")
 database.add("Palindrome Number | Easy | Accenture, Yahoo", "https://leetcode.com/problems/palindrome-number/")
-database.add("Snapshot Array | Easy | Google, Rubrik", "https://leetcode.com/problems/snapshot-array/")
+database.add("11 Oct - Snapshot Array | Easy | Google, Rubrik", "https://leetcode.com/problems/snapshot-array/")
 database.add("TwoSum | Easy | Companines: Google, Accenture, Adobe, Amazon, Amex, Apple, Bloomberg, Dell, Expedia, Goldman, IBM, Intel, Intuit, JP, MicroSoft, Morgan Stanley, Orcale, Paypal, Salesforce, Samsung, Spotify, Uber, Visa, Walmart, Yahoo, Zillow, Zoho, Zomato, Zoom", "https://leetcode.com/problems/two-sum/")
 database.add("Valid Anagram | Easy | Affirm, Spotify", "https://leetcode.com/problems/valid-anagram/")
 database.add("Valid Palindrome | Easy | Amex, Wayfair, Yandex", "https://leetcode.com/problems/valid-palindrome/")
@@ -38,7 +38,8 @@ database.add("Merge Two Sorted List | Easy | Accenture, Adobe, Orcale, Shoppe", 
 database.add("Has Cycle | Easy | Spotify(4), Visa(3)", "https://leetcode.com/problems/linked-list-cycle/")
 database.add("Factorial recursive| Na | Na", "Na")
 database.add("Maximum Depth of Binary Tree | Easy | Spotify(4)", "https://leetcode.com/problems/maximum-depth-of-binary-tree/")
-database.add("Break a palindrome | Medium | Na", "https://leetcode.com/problems/break-a-palindrome/")
+database.add("10 Oct - Break a palindrome | Medium | Na", "https://leetcode.com/problems/break-a-palindrome/")
+database.add("11 Oct - Increasing Triplet Subsequence | Medium | Na", "https://leetcode.com/problems/increasing-triplet-subsequence/")
 #database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
