@@ -12,6 +12,9 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None 
+
+    def printHead(self):
+        print(self.head.data)
     
     def printList(self):
         temp = self.head
@@ -127,6 +130,8 @@ list2.head.next.next.next = list2.head
 print(list2.head.next.next.next.data)
 
 print(list2.hasCycle(list2.head))
+
+list2.printHead()
             
         
 
