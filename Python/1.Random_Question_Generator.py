@@ -40,6 +40,7 @@ database.add("Factorial recursive| Na | Na", "Na")
 database.add("Maximum Depth of Binary Tree | Easy | Spotify(4)", "https://leetcode.com/problems/maximum-depth-of-binary-tree/")
 database.add("10 Oct - Break a palindrome | Medium | Na", "https://leetcode.com/problems/break-a-palindrome/")
 database.add("11 Oct - Increasing Triplet Subsequence | Medium | Na", "https://leetcode.com/problems/increasing-triplet-subsequence/")
+database.add("12 Oct - Largest Perimeter Triangle | Easy | Tesla", "https://leetcode.com/problems/largest-perimeter-triangle/")
 #database.add(" |  | ", " ")
 #database.add(" |  | ", " ")
 
