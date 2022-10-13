@@ -45,7 +45,7 @@ database.add("11 Oct - Increasing Triplet Subsequence | Medium | Na", "https://l
 database.add("12 Oct - Largest Perimeter Triangle | Easy | Tesla", "https://leetcode.com/problems/largest-perimeter-triangle/")
 database.add("12 Oct - Binary Tree In Order Traversal | Easy | Na", "https://leetcode.com/problems/binary-tree-inorder-traversal/")
 database.add("Diameter of Binary Tree | Easy | Na", "https://leetcode.com/problems/diameter-of-binary-tree/")
-#database.add(" |  | ", " ")
+database.add("Delete Node in a Linked List | Medium | Na", "https://leetcode.com/problems/delete-node-in-a-linked-list/")
 #database.add(" |  | ", " ")
 
 database.generate()
