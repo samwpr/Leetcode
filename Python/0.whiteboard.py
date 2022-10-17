@@ -1,10 +1,5 @@
-def testFunc1():
-    res = 0
-    def testFunc2():
-        nonlocal res 
-        res = 1
+alpha = set()
 
-    testFunc2()
-    return res 
+alpha.add("i")
 
-print(testFunc1())
+print(len(alpha))

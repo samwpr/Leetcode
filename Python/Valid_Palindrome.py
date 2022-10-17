@@ -5,27 +5,28 @@ from curses.ascii import isalpha
 
 
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        cleanString = ""
-        flippedString = ""
-        for i in s.lower():
+    def isPalindrome(self, s: str):
+        clean = ""
+        for i in s:
             if i.isalnum() == True:
-                cleanString += i
-        print(cleanString)
+                clean += i
         
-        for j in reversed(cleanString):
-            flippedString += j
-        print(flippedString)
-
-        if cleanString == flippedString:
+        reverse = clean[::-1]
+        reverse = reverse.lower()
+        clean = clean.lower()
+        print(clean)
+        print(reverse)
+        
+        if reverse == clean:
             return True
-        return False
-        
+        else:
+            return False 
+
 
 obj = Solution()
-#print(obj.isPalindrome("A man, a plan, a canal: Panama")) #True
+print(obj.isPalindrome("A man, a plan, a canal: Panama")) #True
 #print(obj.isPalindrome("race a car")) #False
-print(obj.isPalindrome("0P"))
+#print(obj.isPalindrome("0P"))
 
 '''
 var temp 
