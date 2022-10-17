@@ -78,6 +78,8 @@ database.add("Delete Node in a Linked List | Medium | Na", "https://leetcode.com
 database.add("Delete Middle Node of a LinkedList | Medium | Na", "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/")
 #30
 database.add("17 Oct - Check if sentence is a Pangram | Easy | Na", "https://leetcode.com/problems/check-if-the-sentence-is-pangram/")
+#31
+database.add("Balanced Binary Tree | Easy | Spotify ", "https://leetcode.com/problems/balanced-binary-tree/")
 #3
 #database.add(" |  | ", " ")
 
