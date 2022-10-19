@@ -20,8 +20,6 @@ class palindrome(object):
         return False
 
 
-
-
 obj = palindrome()
 print(obj.calculate(121)) #true
 print(obj.calculate(-121)) #false

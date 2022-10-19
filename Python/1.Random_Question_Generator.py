@@ -82,6 +82,8 @@ database.add("17 Oct - Check if sentence is a Pangram | Easy | Na", "https://lee
 database.add("Balanced Binary Tree | Easy | Spotify ", "https://leetcode.com/problems/balanced-binary-tree/")
 #32
 database.add("Count and say | Medium | Na", "https://leetcode.com/problems/count-and-say/")
+#33
+database.add("Top K Frequent Words | Medium | Two Sigma(2), Uber(17), Yahoo(4)", "https://leetcode.com/problems/top-k-frequent-words/")
 #3
 #database.add(" |  | ", " ")
 
