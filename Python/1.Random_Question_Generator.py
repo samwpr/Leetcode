@@ -7,7 +7,7 @@ class leetcode(object):
         self.problem_id = 1
         self.dict = defaultdict(dict)
     
-    def add(self, problem_name: str, problem_url: str): 
+    def add(self, problem_name, problem_url): 
         self.dict[self.problem_id][problem_name] = problem_url
         self.problem_id += 1
         self.size += 1
@@ -84,6 +84,10 @@ database.add("Balanced Binary Tree | Easy | Spotify ", "https://leetcode.com/pro
 database.add("Count and say | Medium | Na", "https://leetcode.com/problems/count-and-say/")
 #33
 database.add("Top K Frequent Words | Medium | Two Sigma(2), Uber(17), Yahoo(4)", "https://leetcode.com/problems/top-k-frequent-words/")
+#34
+database.add("Integer to Roman | Medium | Capital One(3) ", "https://leetcode.com/problems/integer-to-roman/")
+#35
+database.add("Same Tree | Easy | Na", "https://leetcode.com/problems/same-tree/")
 #3
 #database.add(" |  | ", " ")
 
