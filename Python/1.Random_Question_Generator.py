@@ -73,7 +73,7 @@ database.add("12 Oct - Binary Tree In Order Traversal | Easy | Na", "https://lee
 #27
 database.add("Diameter of Binary Tree | Easy | Na", "https://leetcode.com/problems/diameter-of-binary-tree/")
 #28
-database.add("Delete Node in a Linked List | Medium | Na", "https://leetcode.com/problems/delete-node-in-a-linked-list/")
+database.add("21 0ct - Delete Node in a Linked List | Medium | Na", "https://leetcode.com/problems/delete-node-in-a-linked-list/")
 #29
 database.add("Delete Middle Node of a LinkedList | Medium | Na", "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/")
 #30
@@ -88,6 +88,8 @@ database.add("Top K Frequent Words | Medium | Two Sigma(2), Uber(17), Yahoo(4)",
 database.add("Integer to Roman | Medium | Capital One(3) ", "https://leetcode.com/problems/integer-to-roman/")
 #35
 database.add("Same Tree | Easy | Na", "https://leetcode.com/problems/same-tree/")
+#36
+database.add("Contains Duplicate II | Easy | Na ", "https://leetcode.com/problems/contains-duplicate-ii/")
 #3
 #database.add(" |  | ", " ")
 

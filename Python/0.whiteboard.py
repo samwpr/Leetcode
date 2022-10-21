@@ -1,19 +1,23 @@
-def isPalindrome(x: int) -> bool:
-    if x < 0:
-        return False 
-    
-    reverse = 0
-    temp = x
-    while temp != 0:
-        x = temp % 10 
-        reverse = reverse * 10 + x
-        temp = temp // 10 
-    
-    print(reverse)
-    
-    if reverse == x:
-        return True 
-    else:
-        return False 
+def containsDuplicate2(nums, k):
+    unique = set()
+    duplicateNum = None
+    duplicateIndex = None
+    for index, element in enumerate(nums):
+        if element in unique:
+            duplicateNum = element
+            duplicateIndex = index
+        else:
+            unique.add(element)
 
-print(isPalindrome(121))
+    indexOfFirst = nums.index(duplicateNum)
+    print(indexOfFirst)
+    j = abs(indexOfFirst - duplicateIndex)
+    print(j)
+
+    return abs(indexOfFirst - duplicateIndex) <= k
+
+
+
+
+print(containsDuplicate2([1, 0, 1, 1], 1)) #True
+#print(containsDuplicate2([1, 2, 3, 1], 3)) #True
