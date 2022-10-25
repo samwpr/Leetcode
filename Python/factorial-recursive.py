@@ -1,9 +1,9 @@
 from tkinter import N
 
 
-def factorial(n: int):
-    if n < 0: return -1
-    
+def factorial(n):
+    if n < 0: return -1 
+
     if n < 2: return 1
 
     n = n*factorial(n - 1)
