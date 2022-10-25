@@ -92,6 +92,12 @@ database.add("Same Tree | Easy | Na", "https://leetcode.com/problems/same-tree/"
 database.add("Contains Duplicate II | Easy | Na ", "https://leetcode.com/problems/contains-duplicate-ii/")
 #37
 database.add("Minimum Window Substring | Hard | Airbnb(6), Lyft(9)", "https://leetcode.com/problems/minimum-window-substring/")
+#38
+database.add("Subtree of another tree | Easy | Na ", "https://leetcode.com/problems/subtree-of-another-tree/solution/")
+#39
+database.add("Check if two string arrays are equvialnt | Easy | Na ", "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/")
+#4
+#database.add(" |  | ", " ")
 
 database.generate()
 
