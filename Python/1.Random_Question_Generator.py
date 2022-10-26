@@ -96,6 +96,8 @@ database.add("Minimum Window Substring | Hard | Airbnb(6), Lyft(9)", "https://le
 database.add("Subtree of another tree | Easy | Na ", "https://leetcode.com/problems/subtree-of-another-tree/solution/")
 #39
 database.add("Check if two string arrays are equvialnt | Easy | Na ", "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/")
+#40
+database.add("Continuous Subarray sum | Mediu | Na", "https://leetcode.com/problems/continuous-subarray-sum/")
 #4
 #database.add(" |  | ", " ")
 
