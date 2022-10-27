@@ -41,7 +41,7 @@ database.add("12 Oct - Best Time to Buy and Sell Stock | Easy | Adobe, Alation, 
 #11
 database.add("Valid Parentheses | Easy | Adobe, Amazon, Arista Networks, Barclays, Bloomberg, Booking, Cisco, Dataminr, Expedia, Intel, Linkedin, Microsoft, Netflix, Oracle, ServiceNow, Spotify, VMware, Yandex, tcs", "https://leetcode.com/problems/valid-parentheses/")
 #12
-database.add("Binary Search | Easy | Na", "https://leetcode.com/problems/binary-search/")
+database.add("27 0ct - Binary Search | Easy | Na", "https://leetcode.com/problems/binary-search/")
 #13
 database.add("Reverse LinkedList - Iterative | Easy | Intuit, Yandex", "https://leetcode.com/problems/reverse-linked-list/")
 #14
@@ -97,7 +97,11 @@ database.add("Subtree of another tree | Easy | Na ", "https://leetcode.com/probl
 #39
 database.add("Check if two string arrays are equvialnt | Easy | Na ", "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/")
 #40
-database.add("Continuous Subarray sum | Mediu | Na", "https://leetcode.com/problems/continuous-subarray-sum/")
+database.add("Continuous Subarray sum | Medium | Na", "https://leetcode.com/problems/continuous-subarray-sum/")
+#41
+database.add("Image Overlap | Medium | Na", "https://leetcode.com/problems/image-overlap/")
+#42
+database.add("Kth Largest Element in a Stream | Easy | Na", "https://leetcode.com/problems/kth-largest-element-in-a-stream/")
 #4
 #database.add(" |  | ", " ")
 
