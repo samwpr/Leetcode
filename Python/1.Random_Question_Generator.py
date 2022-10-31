@@ -104,6 +104,8 @@ database.add("Image Overlap | Medium | Na", "https://leetcode.com/problems/image
 database.add("Kth Largest Element in a Stream | Easy | Na", "https://leetcode.com/problems/kth-largest-element-in-a-stream/")
 #43
 database.add("Group Anagrams | Medium | Affirm(4), Alation(2), Amazon(51), Apple(11), BlackRock(6), IBM(2), JPMorgan(8), MicroSoft(29), Salesforce(3), ServiceNow(3), Twilio(3), VMware(3), Visa(3), Walmart(5), Yahoo(2), Ebay(4)", "https://leetcode.com/problems/group-anagrams/")
+#44
+database.add("Toeplitz Matrix | Easy | Na ", "https://leetcode.com/problems/toeplitz-matrix/")
 #4
 #database.add(" |  | ", " ")
 
