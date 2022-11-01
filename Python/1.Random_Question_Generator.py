@@ -106,6 +106,8 @@ database.add("Kth Largest Element in a Stream | Easy | Na", "https://leetcode.co
 database.add("Group Anagrams | Medium | Affirm(4), Alation(2), Amazon(51), Apple(11), BlackRock(6), IBM(2), JPMorgan(8), MicroSoft(29), Salesforce(3), ServiceNow(3), Twilio(3), VMware(3), Visa(3), Walmart(5), Yahoo(2), Ebay(4)", "https://leetcode.com/problems/group-anagrams/")
 #44
 database.add("Toeplitz Matrix | Easy | Na ", "https://leetcode.com/problems/toeplitz-matrix/")
+#45
+database.add("Where will the ball fall | Medium | Na", "https://leetcode.com/problems/where-will-the-ball-fall/")
 #4
 #database.add(" |  | ", " ")
 
