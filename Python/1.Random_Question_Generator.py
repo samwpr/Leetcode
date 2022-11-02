@@ -51,7 +51,7 @@ database.add("12 Oct - Invert Binary Tree | Easy | Na", "https://leetcode.com/pr
 #16
 database.add("Create Binary Tree| Na | Na", "Na")
 #17
-database.add("Merge Two Sorted List | Easy | Accenture, Adobe, Orcale, Shoppe", "https://leetcode.com/problems/merge-two-sorted-lists/")
+database.add("At: 12 | Merge Two Sorted List | Easy | Accenture, Adobe, Orcale, Shoppe", "https://leetcode.com/problems/merge-two-sorted-lists/")
 #18
 database.add("Has Cycle | Easy | Spotify(4), Visa(3)", "https://leetcode.com/problems/linked-list-cycle/")
 #19
@@ -108,8 +108,10 @@ database.add("Group Anagrams | Medium | Affirm(4), Alation(2), Amazon(51), Apple
 database.add("Toeplitz Matrix | Easy | Na ", "https://leetcode.com/problems/toeplitz-matrix/")
 #45
 database.add("Where will the ball fall | Medium | Na", "https://leetcode.com/problems/where-will-the-ball-fall/")
+#46
+database.add("At: 0 | Minimum Genetic Mutation | Medium | Na", "https://leetcode.com/problems/minimum-genetic-mutation/")
 #4
-#database.add(" |  | ", " ")
+#database.add("At: |  |  | ", " ")
 
 database.generate()
 
