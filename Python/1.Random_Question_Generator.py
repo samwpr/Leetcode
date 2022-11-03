@@ -110,6 +110,8 @@ database.add("Toeplitz Matrix | Easy | Na ", "https://leetcode.com/problems/toep
 database.add("Where will the ball fall | Medium | Na", "https://leetcode.com/problems/where-will-the-ball-fall/")
 #46
 database.add("At: 0 | Minimum Genetic Mutation | Medium | Na", "https://leetcode.com/problems/minimum-genetic-mutation/")
+#47
+database.add("At: | Longest Palindrome by Concatenating Two Letter Words | Medium | Na", "https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/")
 #4
 #database.add("At: |  |  | ", " ")
 
