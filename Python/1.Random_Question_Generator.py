@@ -112,6 +112,8 @@ database.add("Where will the ball fall | Medium | Na", "https://leetcode.com/pro
 database.add("At: 0 | Minimum Genetic Mutation | Medium | Na", "https://leetcode.com/problems/minimum-genetic-mutation/")
 #47
 database.add("At: | Longest Palindrome by Concatenating Two Letter Words | Medium | Na", "https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/")
+#48
+database.add("At: | Reverse vowel of a string | Easy | Na", "https://leetcode.com/problems/reverse-vowels-of-a-string/")
 #4
 #database.add("At: |  |  | ", " ")
 
