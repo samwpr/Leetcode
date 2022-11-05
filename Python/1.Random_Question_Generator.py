@@ -114,8 +114,11 @@ database.add("At: 0 | Minimum Genetic Mutation | Medium | Na", "https://leetcode
 database.add("At: | Longest Palindrome by Concatenating Two Letter Words | Medium | Na", "https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/")
 #48
 database.add("At: | Reverse vowel of a string | Easy | Na", "https://leetcode.com/problems/reverse-vowels-of-a-string/")
+#49
+database.add("At: | Word Search ll | Hard | Cisco(16), Karat(5), Snapchat(5), Twitter(5), Uber(36)", "https://leetcode.com/problems/word-search-ii/")
 #4
 #database.add("At: |  |  | ", " ")
+
 
 database.generate()
 
