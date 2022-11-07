@@ -118,6 +118,10 @@ database.add("At: | Reverse vowel of a string | Easy | Na", "https://leetcode.co
 database.add("At: | Word Search ll | Hard | Cisco(16), Karat(5), Snapchat(5), Twitter(5), Uber(36)", "https://leetcode.com/problems/word-search-ii/")
 #50
 database.add("At: | Orderly Queue | Hard | Na ", "https://leetcode.com/problems/orderly-queue/")
+#51
+database.add("At: | Maximum 69 Number | Easy | HRT(1)", "https://leetcode.com/problems/maximum-69-number/")
+#52
+database.add("At: | Last Stone Weight | Easy | Nvidia(8), Visa(11)", "https://leetcode.com/problems/last-stone-weight/")
 #5
 #database.add("At: |  |  | ", " ")
 

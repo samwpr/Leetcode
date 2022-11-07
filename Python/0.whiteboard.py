@@ -1,8 +1,1 @@
-import heapq
-
-#Difference between heap and binary tree 
-
-'''
-heap visualised 
-'''
-
+print(-8 - -7)
