@@ -122,6 +122,8 @@ database.add("At: | Orderly Queue | Hard | Na ", "https://leetcode.com/problems/
 database.add("At: | Maximum 69 Number | Easy | HRT(1)", "https://leetcode.com/problems/maximum-69-number/")
 #52
 database.add("At: | Last Stone Weight | Easy | Nvidia(8), Visa(11)", "https://leetcode.com/problems/last-stone-weight/")
+#53
+database.add("At: | Make String Great | Easy | Na", "https://leetcode.com/problems/make-the-string-great/")
 #5
 #database.add("At: |  |  | ", " ")
 
