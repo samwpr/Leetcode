@@ -124,6 +124,10 @@ database.add("At: | Maximum 69 Number | Easy | HRT(1)", "https://leetcode.com/pr
 database.add("At: | Last Stone Weight | Easy | Nvidia(8), Visa(11)", "https://leetcode.com/problems/last-stone-weight/")
 #53
 database.add("At: | Make String Great | Easy | Na", "https://leetcode.com/problems/make-the-string-great/")
+#54
+database.add("At: | Online Stock Span | Medium | Na", "https://leetcode.com/problems/online-stock-span/")
+#55
+database.add("At: | Climbing Stair | Easy | Expedia(7), Yahoo(3)", "https://leetcode.com/problems/climbing-stairs/")
 #5
 #database.add("At: |  |  | ", " ")
 
