@@ -128,6 +128,8 @@ database.add("At: | Make String Great | Easy | Na", "https://leetcode.com/proble
 database.add("At: | Online Stock Span | Medium | Na", "https://leetcode.com/problems/online-stock-span/")
 #55
 database.add("At: | Climbing Stair | Easy | Expedia(7), Yahoo(3)", "https://leetcode.com/problems/climbing-stairs/")
+#56
+database.add("At: | Remove All Adjacent Duplicates In String | Easy | Na", "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/")
 #5
 #database.add("At: |  |  | ", " ")
 

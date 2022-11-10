@@ -1,13 +1,14 @@
-def makeGood(s: str) -> str:
-    stack = []
-    for i in s:
-        stack.append(i)
+def removeDup(s):
+    res = []
 
-    for j in range(len(stack) - 1):
-        if stack[j].upper() == stack[j + 1]:
-            stack.pop(j)
-            stack.pop(j + 1)
+    for c in s:
+        if res and res[-1] == c:
+            print(res)
+            res.pop()
+        else:
+            res.append(c)
 
-    print(stack)
-        
-makeGood("leEeetcode")
+    return ''.join(res)
+
+removeDup("abbaca")
+
