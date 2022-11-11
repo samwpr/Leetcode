@@ -1,14 +1,14 @@
-def removeDup(s):
-    res = []
+def climbstair(n):
+    one, two = 1, 1
 
-    for c in s:
-        if res and res[-1] == c:
-            print(res)
-            res.pop()
-        else:
-            res.append(c)
+    for i in range(n - 1):
+        temp = one
+        one = one + two
+        two = temp
+        print("temp", temp)
+        print("one", one)
+        print("two", two)
+        print("-----")
+    return one
 
-    return ''.join(res)
-
-removeDup("abbaca")
-
+climbstair(5)
