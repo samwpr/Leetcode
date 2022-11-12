@@ -132,8 +132,11 @@ database.add("At: | Climbing Stair | Easy | Expedia(7), Yahoo(3)", "https://leet
 database.add("At: | Remove All Adjacent Duplicates In String | Easy | Na", "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/")
 #57
 database.add("At: | Remove Duplicates from Sorted Array | Easy | VMware(2)", "https://leetcode.com/problems/remove-duplicates-from-sorted-array/")
+#58
+database.add("At: | Find Median from Data Stream | Hard | Na", "https://leetcode.com/problems/find-median-from-data-stream/")
 #5
 #database.add("At: |  |  | ", " ")
+
 
 
 
