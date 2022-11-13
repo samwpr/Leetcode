@@ -134,6 +134,8 @@ database.add("At: | Remove All Adjacent Duplicates In String | Easy | Na", "http
 database.add("At: | Remove Duplicates from Sorted Array | Easy | VMware(2)", "https://leetcode.com/problems/remove-duplicates-from-sorted-array/")
 #58
 database.add("At: | Find Median from Data Stream | Hard | Na", "https://leetcode.com/problems/find-median-from-data-stream/")
+#59
+database.add("At: | Reverse Words in a String | Medium | Mircosoft(34), Visa(2) ", "https://leetcode.com/problems/reverse-words-in-a-string/")
 #5
 #database.add("At: |  |  | ", " ")
 
