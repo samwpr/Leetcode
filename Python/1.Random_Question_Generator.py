@@ -136,7 +136,11 @@ database.add("At: | Remove Duplicates from Sorted Array | Easy | VMware(2)", "ht
 database.add("At: | Find Median from Data Stream | Hard | Na", "https://leetcode.com/problems/find-median-from-data-stream/")
 #59
 database.add("At: | Reverse Words in a String | Medium | Mircosoft(34), Visa(2) ", "https://leetcode.com/problems/reverse-words-in-a-string/")
-#5
+#60
+database.add("At: | Most Stones Removed with Same Row or Column | Medium | Na", "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/")
+#61
+database.add("At: | Count Complete Tree Nodes | Medium | tiktok(4)", "https://leetcode.com/problems/count-complete-tree-nodes/")
+#6
 #database.add("At: |  |  | ", " ")
 
 
