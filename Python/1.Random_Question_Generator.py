@@ -140,6 +140,8 @@ database.add("At: | Reverse Words in a String | Medium | Mircosoft(34), Visa(2) 
 database.add("At: | Most Stones Removed with Same Row or Column | Medium | Na", "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/")
 #61
 database.add("At: | Count Complete Tree Nodes | Medium | tiktok(4)", "https://leetcode.com/problems/count-complete-tree-nodes/")
+#62
+database.add("At: | Guess Number Higher or Lower | Easy | Na", "https://leetcode.com/problems/guess-number-higher-or-lower/")
 #6
 #database.add("At: |  |  | ", " ")
 
