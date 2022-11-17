@@ -142,6 +142,8 @@ database.add("At: | Most Stones Removed with Same Row or Column | Medium | Na", 
 database.add("At: | Count Complete Tree Nodes | Medium | tiktok(4)", "https://leetcode.com/problems/count-complete-tree-nodes/")
 #62
 database.add("At: | Guess Number Higher or Lower | Easy | Na", "https://leetcode.com/problems/guess-number-higher-or-lower/")
+#63
+database.add("At: | Rectangle Area | Medium | Na ", "https://leetcode.com/problems/rectangle-area/")
 #6
 #database.add("At: |  |  | ", " ")
 
