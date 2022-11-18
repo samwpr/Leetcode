@@ -144,6 +144,8 @@ database.add("At: | Count Complete Tree Nodes | Medium | tiktok(4)", "https://le
 database.add("At: | Guess Number Higher or Lower | Easy | Na", "https://leetcode.com/problems/guess-number-higher-or-lower/")
 #63
 database.add("At: | Rectangle Area | Medium | Na ", "https://leetcode.com/problems/rectangle-area/")
+#64
+database.add("At: | Ugly Number | Easy | Na", "https://leetcode.com/problems/ugly-number/")
 #6
 #database.add("At: |  |  | ", " ")
 
