@@ -146,6 +146,8 @@ database.add("At: | Guess Number Higher or Lower | Easy | Na", "https://leetcode
 database.add("At: | Rectangle Area | Medium | Na ", "https://leetcode.com/problems/rectangle-area/")
 #64
 database.add("At: | Ugly Number | Easy | Na", "https://leetcode.com/problems/ugly-number/")
+#65
+database.add("At: | Erect the Fence | Hard | Na", "https://leetcode.com/problems/erect-the-fence/")
 #6
 #database.add("At: |  |  | ", " ")
 
