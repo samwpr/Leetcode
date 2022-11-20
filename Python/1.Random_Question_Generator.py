@@ -148,6 +148,8 @@ database.add("At: | Rectangle Area | Medium | Na ", "https://leetcode.com/proble
 database.add("At: | Ugly Number | Easy | Na", "https://leetcode.com/problems/ugly-number/")
 #65
 database.add("At: | Erect the Fence | Hard | Na", "https://leetcode.com/problems/erect-the-fence/")
+#66
+database.add("At: | Basic Calculator | Hard | ByteDance(3) DoorDash(6)", "https://leetcode.com/problems/basic-calculator/")
 #6
 #database.add("At: |  |  | ", " ")
 

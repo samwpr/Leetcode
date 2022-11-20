@@ -1,6 +1,6 @@
 class Node:
     def __init__(self, input):
-        self.root = input
+        self.root = input 
         self.left = None 
         self.right = None 
     
@@ -10,23 +10,24 @@ class Node:
             if input <= self.root:
                 if self.left == None:
                     self.left = Node(input)
-                else:
+                else: 
                     self.left.add(input)
-            else: 
+            else:
                 if self.right == None:
                     self.right = Node(input)
                 else:
                     self.right.add(input)
         else:
-            self.root = input
+            self.root == input
 
     def inorder(self, tree):
         res = []
-        if tree: 
+        if tree:
             res = res + self.inorder(tree.left)
             res.append(tree.root)
             res = res + self.inorder(tree.right)
-        return res 
+        return res
+
 
 tree1 = Node(5)
 tree1.add(2)
