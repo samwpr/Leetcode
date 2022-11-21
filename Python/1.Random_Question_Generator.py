@@ -150,8 +150,11 @@ database.add("At: | Ugly Number | Easy | Na", "https://leetcode.com/problems/ugl
 database.add("At: | Erect the Fence | Hard | Na", "https://leetcode.com/problems/erect-the-fence/")
 #66
 database.add("At: | Basic Calculator | Hard | ByteDance(3) DoorDash(6)", "https://leetcode.com/problems/basic-calculator/")
+#67
+database.add("At: | Nearest Exit from Entrance in Maze | Medium | Na", "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/")
 #6
 #database.add("At: |  |  | ", " ")
+
 
 
 
