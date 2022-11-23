@@ -154,8 +154,11 @@ database.add("At: | Basic Calculator | Hard | ByteDance(3) DoorDash(6)", "https:
 database.add("At: | Nearest Exit from Entrance in Maze | Medium | Na", "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/")
 #68
 database.add("At: | Perfect Squares | Medium | Na ", "https://leetcode.com/problems/perfect-squares/")
-#6
+#69
+database.add("At: | Valid Sudoku | Medium | Cruise Automation(5) Karat(3) Nvidia(3) Wayfair(3)", "https://leetcode.com/problems/valid-sudoku")
+#7
 #database.add("At: |  |  | ", " ")
+
 
 
 
