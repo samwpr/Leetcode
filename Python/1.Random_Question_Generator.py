@@ -156,6 +156,8 @@ database.add("At: | Nearest Exit from Entrance in Maze | Medium | Na", "https://
 database.add("At: | Perfect Squares | Medium | Na ", "https://leetcode.com/problems/perfect-squares/")
 #69
 database.add("At: | Valid Sudoku | Medium | Cruise Automation(5) Karat(3) Nvidia(3) Wayfair(3)", "https://leetcode.com/problems/valid-sudoku")
+#70
+database.add("At: | Word Search | Medium | Amazon(36) Bloomberg(14) Cisco(16) Indeed(9) Karat(17) Snapchat(7) Twitter(23) Uber(17)", "https://leetcode.com/problems/word-search/")
 #7
 #database.add("At: |  |  | ", " ")
 
