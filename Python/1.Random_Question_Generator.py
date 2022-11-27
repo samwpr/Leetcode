@@ -158,8 +158,12 @@ database.add("At: | Perfect Squares | Medium | Na ", "https://leetcode.com/probl
 database.add("At: | Valid Sudoku | Medium | Cruise Automation(5) Karat(3) Nvidia(3) Wayfair(3)", "https://leetcode.com/problems/valid-sudoku")
 #70
 database.add("At: | Word Search | Medium | Amazon(36) Bloomberg(14) Cisco(16) Indeed(9) Karat(17) Snapchat(7) Twitter(23) Uber(17)", "https://leetcode.com/problems/word-search/")
+#71
+database.add("At: | Arithmetic Slices II - Subsequence | Hard | Baidu(1) ", "https://leetcode.com/problems/arithmetic-slices-ii-subsequence/")
 #7
 #database.add("At: |  |  | ", " ")
+
+
 
 
 

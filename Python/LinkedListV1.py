@@ -1,49 +1,44 @@
 class Node:
     def __init__(self, input):
-        self.data = input
+        self.data = input 
         self.next = None 
-
 
 class LinkedList:
     def __init__(self):
         self.head = None
 
     def addBefore(self, input):
-        newnode = Node(input)
-        newnode.next = self.head
-        self.head = newnode
+        new_node = Node(input)
+        new_node.next = self.head
+        self.head = new_node
 
     def append(self, input):
-        newnode = Node(input)
+        new_node = Node(input)
         if self.head == None:
-            self.head = newnode
+            self.head = new_node
             return 
 
-        temp = self.head
+        temp = self.head 
         while temp.next != None:
-            temp = temp.next
-        
-        temp.next = newnode
+            temp = temp.next 
+
+        temp.next = new_node
 
     def insert(self, prevNode, input):
         if prevNode == None:
-            print("No previous node")
+            print('There is not previous node')
             return 
 
-        newnode = Node(input)
-        newnode.next = prevNode.next
-        prevNode.next = newnode
+        new_node = Node(input)
+        new_node.next = prevNode.next
+        prevNode.next = new_node
 
     def printList(self):
         temp = self.head
         while temp != None:
-            print(temp.data, end=" ")
+            print(temp.data, end="")
             temp = temp.next
-        print("")
-
-
-
-        
+        print("")        
 
 list1 = LinkedList()
 list1.addBefore(1)
