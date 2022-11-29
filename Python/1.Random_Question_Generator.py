@@ -160,6 +160,8 @@ database.add("At: | Valid Sudoku | Medium | Cruise Automation(5) Karat(3) Nvidia
 database.add("At: | Word Search | Medium | Amazon(36) Bloomberg(14) Cisco(16) Indeed(9) Karat(17) Snapchat(7) Twitter(23) Uber(17)", "https://leetcode.com/problems/word-search/")
 #71
 database.add("At: | Arithmetic Slices II - Subsequence | Hard | Baidu(1) ", "https://leetcode.com/problems/arithmetic-slices-ii-subsequence/")
+#72
+database.add("At: | Insert Delete GetRandom O(1) | Medium | Affirm(10), Bloomberg(23), Linkedin(15), Twitter(5), Uber(7)", "https://leetcode.com/problems/insert-delete-getrandom-o1/")
 #7
 #database.add("At: |  |  | ", " ")
 
