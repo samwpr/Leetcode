@@ -162,8 +162,11 @@ database.add("At: | Word Search | Medium | Amazon(36) Bloomberg(14) Cisco(16) In
 database.add("At: | Arithmetic Slices II - Subsequence | Hard | Baidu(1) ", "https://leetcode.com/problems/arithmetic-slices-ii-subsequence/")
 #72
 database.add("At: | Insert Delete GetRandom O(1) | Medium | Affirm(10), Bloomberg(23), Linkedin(15), Twitter(5), Uber(7)", "https://leetcode.com/problems/insert-delete-getrandom-o1/")
+#73
+database.add("At: | Determine if Two Strings Are Close| Medium | Postmates(1)", "https://github.com/hxu296/leetcode-company-wise-problems-2022#google")
 #7
 #database.add("At: |  |  | ", " ")
+
 
 
 
