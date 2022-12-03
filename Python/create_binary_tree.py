@@ -1,16 +1,15 @@
-
 class Node:
     def __init__(self, input):
-        self.root = input
-        self.left = None
-        self.right = None
-
+        self.root = input 
+        self.left = None 
+        self.right = None 
+    
     def add(self, input):
         if self.root:
             if input < self.root:
                 if self.left == None:
                     self.left = Node(input)
-                else:
+                else: 
                     self.left.add(input)
             else:
                 if self.right == None:
@@ -18,7 +17,7 @@ class Node:
                 else:
                     self.right.add(input)
         else:
-            self.root = input
+            self.root = input 
 
     def inOrder(self, tree):
         res = []
@@ -26,9 +25,7 @@ class Node:
             res = res + self.inOrder(tree.left)
             res.append(tree.root)
             res = res + self.inOrder(tree.right)
-
-        return res
-
+        return res 
 
 root = Node(4)
 root.add(2)
