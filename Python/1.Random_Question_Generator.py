@@ -164,8 +164,12 @@ database.add("At: | Arithmetic Slices II - Subsequence | Hard | Baidu(1) ", "htt
 database.add("At: | Insert Delete GetRandom O(1) | Medium | Affirm(10), Bloomberg(23), Linkedin(15), Twitter(5), Uber(7)", "https://leetcode.com/problems/insert-delete-getrandom-o1/")
 #73
 database.add("At: | Determine if Two Strings Are Close| Medium | Postmates(1)", "https://github.com/hxu296/leetcode-company-wise-problems-2022#google")
+#74
+database.add("At: | Range Sum of BST | Easy | Facebook(149)", "https://leetcode.com/problems/range-sum-of-bst/description/")
 #7
 #database.add("At: |  |  | ", " ")
+
+
 
 
 
