@@ -166,6 +166,8 @@ database.add("At: | Insert Delete GetRandom O(1) | Medium | Affirm(10), Bloomber
 database.add("At: | Determine if Two Strings Are Close| Medium | Postmates(1)", "https://github.com/hxu296/leetcode-company-wise-problems-2022#google")
 #74
 database.add("At: | Range Sum of BST | Easy | Facebook(149)", "https://leetcode.com/problems/range-sum-of-bst/description/")
+#75
+database.add("At: | House Robber | Medium | Cisco(6)", "https://leetcode.com/problems/house-robber/submissions/859594310/")
 #7
 #database.add("At: |  |  | ", " ")
 
