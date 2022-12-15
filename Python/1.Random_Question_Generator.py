@@ -169,6 +169,8 @@ database.add("At: | Range Sum of BST | Easy | Facebook(149)", "https://leetcode.
 #75
 database.add("At: | House Robber | Medium | Cisco(6)", "https://leetcode.com/problems/house-robber/submissions/859594310/")
 #7
+database.add("At: | Longest Common Subsequence | Medium | DoorDash(5) Karat(2)", "https://leetcode.com/problems/longest-common-subsequence/description/")
+#7
 #database.add("At: |  |  | ", " ")
 
 

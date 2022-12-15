@@ -1,14 +1,16 @@
-def climbstair(n):
-    one, two = 1, 1
+def climbStair(n):
+    one = 1
+    two = 1
 
     for i in range(n - 1):
-        temp = one
+        temp = one 
         one = one + two
         two = temp
-        print("temp", temp)
-        print("one", one)
-        print("two", two)
-        print("-----")
+
     return one
 
-climbstair(5)
+print(climbStair(4))
+
+
+for i in range(3 - 1):
+    print("lol")
