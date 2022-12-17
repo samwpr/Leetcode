@@ -1,16 +1,34 @@
-def climbStair(n):
-    one = 1
-    two = 1
+class Node:
+    def __init__(self, input):
+        self.root = input 
+        self.left, self.right = None, None 
 
-    for i in range(n - 1):
-        temp = one 
-        one = one + two
-        two = temp
+    def add(self, input):
+        if self.root: 
+            if input < self.root:
+                if self.left == None:
+                    self.left = Node(input)
+                else: 
+                    self.left.add(input)
+            else:
+                if self.right == None:
+                    self.right = Node(input)
+                else:
+                    self.right.add(input)
+        else:
+            self.root = input 
 
-    return one
+    def inOrder(self, tree):
+        res = []
 
-print(climbStair(4))
+        if tree:
+            res = res + self.inOrder(tree.left)
+            res.append(tree.root)
+            res = res + self.inOrder(tree.right)
+        return res 
 
 
-for i in range(3 - 1):
-    print("lol")
+tree1 = Node(5)
+tree1.add(4)
+tree1.add(6)
+print(tree1.inOrder(tree1))
