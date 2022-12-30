@@ -19,9 +19,9 @@ def find_duplicates(arr1, arr2):
 Approach: 
 Use pointers as they are commonly used for traversing and comparing elements in two sorted arrays. Doing so we do not need to store additional data or perform additional operations. 
 
-For example if we were to brute force and compare every element of the two array for duplicates this would result in a time complexity of O(N^2) however the space complexity would still be O(1) 
+For example if we were to brute force and compare every element of the two array for duplicates this would result in a time complexity of O(N^2) however the space complexity would still be O(N) 
 
-Another inefficient way is to use a merge sort approach to find the duplicate which will give us a time complexity of O(N * log N) due to sorting and additional O(N) time complexity to compare the elements and find the duplicates. This will give us a space complexity of O(N) as additional space is required to store the merged arrays. 
+Another inefficient way is to use a merge sort approach to find the duplicate which will give us a time complexity of O(N * log N) due to sorting and additional O(N) time complexity to compare the elements and find the duplicates. 
 
 Space complexity is O(N) in the worst case it will be as big as the smaller input array.
 
